@@ -4,7 +4,7 @@ public class CoinSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private BoxCollider groundCollider;
-    [SerializeField] private int coinAmount=10; 
+    [SerializeField] private int coinAmount=20; 
 
 
     void Start()
