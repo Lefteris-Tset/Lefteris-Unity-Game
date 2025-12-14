@@ -25,7 +25,9 @@ public class PlayerHandler : MonoBehaviour
 
         isGrounded = Physics.Raycast(groundCheck.position, Vector3.down, groundCheckDistance, groundLayer);
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) { Jump(); }
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded) { 
+            Jump(); 
+        }
     }
 
     private void Jump()
