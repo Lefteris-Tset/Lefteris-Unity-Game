@@ -5,8 +5,6 @@ public class PlayerHandler : MonoBehaviour
     Rigidbody rb;
 
     [SerializeField] private float playerSpeed;
-
-    // Jump variables
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance = 0.2f;
