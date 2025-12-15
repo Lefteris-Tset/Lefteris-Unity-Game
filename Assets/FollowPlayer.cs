@@ -5,7 +5,6 @@ public class FollowPlayer : MonoBehaviour
 {
     [SerializeField] private Transform cameraTarget;
     [SerializeField] private Vector3 offset;
-
     [SerializeField] private float smoothTime = 0.25f;
     
     private Vector3 velocity= Vector3.zero;
